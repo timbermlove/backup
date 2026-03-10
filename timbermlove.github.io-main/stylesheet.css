@@ -1,0 +1,74 @@
+<html>
+<head>
+@font-face {
+  font-family: 'Iconsolata'; 
+  src: url("Inconsolata_Expanded-Regular.ttf");
+}
+</head> 
+<style>
+}
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Inconsolata', sans-serif;
+    position: fixed;
+    text-align: center;
+}
+
+.main-header {
+    background-color: #000000;
+    font-family: 'Inconsolata', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.main-nav ul {
+    list-style: none;
+    font-family: 'Inconsolata', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li a {
+    color: white;
+    font-family: 'Inconsolata', sans-serif;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    color: #333; 
+    
+}
+.search-container input[type=text] {
+    padding: 8px;
+    border: none;
+    border-radius: 0; 
+    outline: none;
+    font-family: 'Inconsolata', sans-serif;
+    float: right;
+}
+
+.search-container button {
+    padding: 8px 15px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Inconsolata', sans-serif;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    float: right;
+}
+
+</style>
+</html>
